@@ -1,0 +1,311 @@
+\documentclass{upa-tesis}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 																				PORTADA									  															   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}
+\begin{center}
+	\textsc{\Large Universidad Paraguayo Alemana}\\[5em]
+	
+	% Insertando logo de la universidad
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width = 0.45\textwidth]{figures/upa-logo.pdf}
+	\end{figure}
+
+	\vspace{5em}
+
+	\textsc{\huge \textbf{TÍTULO DE LA TESIS}}\\[5em]
+
+	\textsc{\large Tesis}\\[1em]
+
+	\textsc{para obtener el título de}\\[1em]
+
+	\textsc{Ingeniero Industrial}\\[1em]
+
+	\textsc{presentada por}\\[1em]
+
+	\textsc{\Large AUTOR}\\[3em]
+
+	\textsc{\small Tutor: NOMBRE}\\[1em]
+	\textsc{\small Examinador 1: NOMBRE}\\[1em]
+	\textsc{\small Examinador 2: NOMBRE}
+\end{center}
+\vspace*{\fill}
+\textsc{San Lorenzo \hspace*{\fill} 2019}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																		DECLARACIÓN DE AUTORIA																			   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{empty}
+\newpage
+\phantomsection
+\normalsize
+\vspace*{6em}
+\begingroup
+
+\begin{center}
+	\begin{large}
+		DECLARACI{\'O}N	DE AUTOR{\'I}A
+	\end{large}
+\end{center}
+
+\hspace{5em}		
+
+Yo,  \textbf{nombre del autor},  declaro que esta tesis titulada ``\textit{Título de la tesis}'' y el trabajo presentado en ella es de mi autoría.\\
+
+\centering
+
+\hspace{5em}		
+
+\rule[1em]{20em}{0.5pt}\\ % Línea para la firma
+\textsc{\textbf{Nombre completo del autor}}\\
+\vspace{0.1em}
+\textsc{\textbf{Ciudad: }}\\
+\vspace{0.1em}
+\textsc{\textbf{Fecha: }}
+
+\endgroup
+\vspace*{\fill}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 						 														DEDICATORIA							  													   		   %		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% ESTA SECCION ES OPCIONAL, SI DESEAN OMITIRLA, COMENTEN TODAS LAS LINEAS CORRESPONDIENTES
+%
+\newpage
+\thispagestyle{plain}
+\phantomsection
+\normalsize
+\begin{flushright}
+\textit{DEDICATORIA}
+
+\textit{Aquí va la dedicatoria, no debe superar de una línea.}
+\end{flushright}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 						 														AGRADECIMIENTOS							  													   %		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{plain}
+\newpage
+\phantomsection
+\section*{\Huge{Agradecimientos}}
+\addcontentsline{toc}{section}{Agradecimientos}
+${}$\\[5 pt]
+\normalsize
+Esta es la página donde van los agradecimientos.
+
+Esta es la página donde van los agradecimientos.
+
+Esta es la página donde van los agradecimientos.
+
+
+\textit{Nombre, Apellido}\\
+\textit{Diciembre, 2019}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																						RESUMEN																					       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\phantomsection
+\section*{\Huge{Resumen}}
+\addcontentsline{toc}{section}{Resumen}
+
+Resumen en español.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 																					ABSTRACT																		 		           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\newpage
+\phantomsection
+\section*{\Huge{Zusammenfassung}}
+\addcontentsline{toc}{section}{Zusammenfassung}
+
+Resumen en alemán.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																				INDICE GENERAL																	                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage 
+\phantomsection
+\addcontentsline{toc}{section}{Índice}
+\tableofcontents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																				INDICE DE FIGURAS																	               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage 
+\phantomsection
+\listoffigures
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																				INDICE DE TABLAS																	               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\phantomsection
+\listoftables
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																			CAPITULO 1: INTRODUCCION																       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\normalsize
+\pagestyle{fancy}
+\pagenumbering{arabic}
+\thispagestyle{myplain}
+\section[Introducción]{{} \\ \begin{flushleft}Introducción\end{flushleft}}
+
+\newpage
+
+HOLA
+
+	\newpage
+
+Probando la primera cita \citep{bear2013dynamics}.
+
+Probando la segunda cita \citep{biot1941general}.
+
+Con \citet{celia1990general} probaremos la tercera cita.
+
+Referenciando la Tabla \ref{tab:testTab}.
+
+\begin{table}[!h]
+	\caption{Una tabla de prueba \label{tab:testTab}}
+	\centering
+	\begin{tabular}{c c c }
+	\toprule
+	1 & 2 & 3 \\
+	\midrule
+	4 & 5 & 6 \\
+	\midrule
+	7 & 8 & 10 \\
+	\bottomrule
+	\end{tabular}
+\end{table}
+
+Referenciando la Fig. \ref{fig:testFig}.
+
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=0.25\textwidth]{figures/upa-logo.pdf}
+	\caption{Una figura de prueba \label{fig:testFig}}
+\end{figure}
+
+\subsection{Justificación y planteamiento del problema}
+
+\subsection{Antecedentes}
+
+\subsection{Objetivos}
+
+\subsubsection{Objetivo general}
+
+\subsubsection{Objetivos específicos}
+
+\newpage
+
+Another page
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																		CAPITULO 2: METODOLOGIA 																	       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{myplain}
+\section[Metodología]{{} \\ \begin{flushleft}Metodología\end{flushleft}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	   																CAPITULO 4: RESULTADOS Y ANALISIS 														       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{myplain}
+\section[Resultados y análisis]{{} \\ \begin{flushleft}Resultados y análisis\end{flushleft}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	   																		CAPITULO 5: CONCLUSION																	       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{myplain}
+\section[Conclusión]{{} \\ \begin{flushleft}Conclusión\end{flushleft}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																				APENDICES 																						       %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagestyle{myFancyAppendix}
+\begin{appendices}
+
+	\thispagestyle{plain}
+	\phantomsection
+	\addcontentsline{toc}{subsection}{A. Nombre de apéndice A}
+	\subsection*{A. Nombre de apéndice A}
+	HOLA
+	\newpage
+	HOLA
+	\newpage
+	\newpage
+	
+	
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{subsection}{B. Nombre de apéndice B}
+	\subsection*{B. Nombre de apéndice B}
+	
+	\newpage
+	\phantomsection
+	\addcontentsline{toc}{subsection}{C. Nombre de apéndice B}
+	\subsection*{C. Nombre de apéndice C}
+	
+\end{appendices}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%																REFERENCIAS BIBLIOGRAFICAS																				   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{myplain}
+\begin{singlespace}
+	\bibliography{biblio/myBiblio.bib}
+\end{singlespace}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\end{document}

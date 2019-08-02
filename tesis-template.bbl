@@ -1,0 +1,20 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Bear}{Bear}{2013}]{bear2013dynamics}
+Bear, J. (2013).
+\newblock {\em Dynamics of fluids in porous media}.
+\newblock Courier Corporation.
+
+\bibitem[\protect\citeauthoryear{Biot}{Biot}{1941}]{biot1941general}
+Biot, M.~A. (1941).
+\newblock General theory of three-dimensional consolidation.
+\newblock {\em Journal of applied physics}, {\em 12\/}(2), 155--164.
+
+\bibitem[\protect\citeauthoryear{Celia, Bouloutas \& Zarba}{Celia
+  et~al.}{1990}]{celia1990general}
+Celia, M.~A., Bouloutas, E.~T., \& Zarba, R.~L. (1990).
+\newblock A general mass-conservative numerical solution for the unsaturated
+  flow equation.
+\newblock {\em Water resources research}, {\em 26\/}(7), 1483--1496.
+
+\end{thebibliography}

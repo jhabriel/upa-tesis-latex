@@ -1,0 +1,120 @@
+\RequireVersions{
+  *{application}{TeX}     {1990/03/25 v3.x}
+  *{format} {LaTeX2e}     {2018-04-01 v2.e}
+  *{class}  {upa-tesis2}  {2018/11/21 v0.0}
+  *{package}{snapshot}    {2002/03/05 v1.14}
+  *{class}  {article}     {2014/09/29 v1.4h}
+  *{file}   {size10.clo}  {2014/09/29 v1.4h}
+  *{package}{fancyhdr}    {2017/06/30 v3.9a}
+  *{package}{natbib}      {2010/09/13 v8.31b}
+  *{package}{graphicx}    {2017/06/01 v1.1a}
+  *{package}{keyval}      {2014/10/28 v1.15}
+  *{package}{graphics}    {2017/06/25 v1.2c}
+  *{package}{trig}        {2016/01/03 v1.10}
+  *{file}   {graphics.cfg}{2016/06/04 v1.11}
+  *{file}   {pdftex.def}  {2018/01/08 v1.0l}
+  *{package}{tensor}      {2004/12/20 v2.1}
+  *{package}{amsmath}     {2017/09/02 v2.17a}
+  *{package}{amstext}     {2000/06/29 v2.01}
+  *{package}{amsgen}      {1999/11/30 v2.0}
+  *{package}{amsbsy}      {1999/11/29 v1.2d}
+  *{package}{amsopn}      {2016/03/08 v2.02}
+  *{package}{enumerate}   {2015/07/23 v3.00}
+  *{package}{mathrsfs}    {1996/01/01 v1.0}
+  *{package}{colortbl}    {2012/02/13 v1.0a}
+  *{package}{array}       {2018/04/07 v2.4g}
+  *{package}{color}       {2016/07/10 v1.1e}
+  *{file}   {color.cfg}   {2016/01/02 v1.6}
+  *{package}{inputenc}    {2018/04/06 v1.3b}
+  *{package}{babel}       {2018/02/14 v3.18}
+  *{file}   {english.ldf} {2017/06/06 v3.3r}
+  *{package}{multicol}    {2018/04/01 v1.8r}
+  *{package}{footmisc}    {2011/06/06 v5.5b}
+  *{package}{multirow}    {2016/11/25 v2.2}
+  *{package}{esint}       {0000/00/00 v0.0}
+  *{package}{bm}          {2017/01/16 v1.2c}
+  *{package}{ushort}      {2001/06/13 v2.2}
+  *{package}{titlesec}    {2016/03/21 v2.10.2}
+  *{package}{gensymb}     {2003/07/02 v1.0}
+  *{package}{amssymb}     {2013/01/14 v3.01}
+  *{package}{amsfonts}    {2013/01/14 v3.01}
+  *{package}{caption}     {2016/02/21 v3.3-144}
+  *{package}{caption3}    {2016/05/22 v1.7-166}
+  *{package}{hyperref}    {2018/02/06 v6.86b}
+  *{package}{hobsub-hyperref}{2016/05/16 v1.14}
+  *{package}{hobsub-generic}{2016/05/16 v1.14}
+  *{package}{hobsub}      {2016/05/16 v1.14}
+  *{package}{infwarerr}   {2016/05/16 v1.4}
+  *{package}{ltxcmds}     {2016/05/16 v1.23}
+  *{package}{ifluatex}    {2016/05/16 v1.4}
+  *{package}{ifvtex}      {2016/05/16 v1.6}
+  *{package}{intcalc}     {2016/05/16 v1.2}
+  *{package}{ifpdf}       {2017/03/15 v3.2}
+  *{package}{etexcmds}    {2016/05/16 v1.6}
+  *{package}{kvsetkeys}   {2016/05/16 v1.17}
+  *{package}{kvdefinekeys}{2016/05/16 v1.4}
+  *{package}{pdftexcmds}  {2018/01/30 v0.27}
+  *{package}{pdfescape}   {2016/05/16 v1.14}
+  *{package}{bigintcalc}  {2016/05/16 v1.4}
+  *{package}{bitset}      {2016/05/16 v1.2}
+  *{package}{uniquecounter}{2016/05/16 v1.3}
+  *{package}{letltxmacro} {2016/05/16 v1.5}
+  *{package}{hopatch}     {2016/05/16 v1.3}
+  *{package}{xcolor-patch}{2016/05/16 v0.0}
+  *{package}{atveryend}   {2016/05/16 v1.9}
+  *{package}{atbegshi}    {2016/06/09 v1.18}
+  *{package}{refcount}    {2016/05/16 v3.5}
+  *{package}{hycolor}     {2016/05/16 v1.8}
+  *{package}{ifxetex}     {2010/09/12 v0.6}
+  *{package}{auxhook}     {2016/05/16 v1.4}
+  *{package}{kvoptions}   {2016/05/16 v3.12}
+  *{file}   {pd1enc.def}  {2018/02/06 v6.86b}
+  *{file}   {hyperref.cfg}{2002/06/06 v1.2}
+  *{package}{url}         {2013/09/16 v3.4}
+  *{file}   {hpdftex.def} {2018/02/06 v6.86b}
+  *{package}{rerunfilecheck}{2016/05/16 v1.8}
+  *{package}{hypcap}      {2016/05/16 v1.12}
+  *{package}{epstopdf}    {2016/05/15 v2.6}
+  *{package}{epstopdf-base}{2016/05/15 v2.6}
+  *{package}{grfext}      {2016/05/16 v1.2}
+  *{file}   {epstopdf-sys.cfg}{2010/07/13 v1.3}
+  *{package}{mhchem}      {2017/07/24 v4.07}
+  *{package}{expl3}       {2018/03/05 v3}
+  *{file}   {expl3-code.tex}{2018/03/05 v3}
+  *{file}   {l3pdfmode.def}{2017/03/18 v3}
+  *{package}{l3keys2e}    {2018/02/21 v2e}
+  *{package}{calc}        {2017/05/25 v4.3}
+  *{package}{chemgreek}   {2016/12/20 v1.1}
+  *{package}{xparse}      {2018/02/21 v3}
+  *{package}{geometry}    {2018/03/24 v5.7}
+  *{package}{tocloft}     {2017/08/31 v2.3i}
+  *{package}{subcaption}  {2016/05/22 v1.1-161}
+  *{package}{tocbibind}   {2010/10/13 v1.5k}
+  *{package}{nomencl}     {2005/09/22 v4.2}
+  *{package}{setspace}    {2011/12/19 v6.7a}
+  *{package}{appendix}    {2009/09/02 v1.2b}
+  *{package}{booktabs}    {2016/04/27 v1.618033}
+  *{package}{mathtools}   {2018/01/08 v1.21}
+  *{package}{mhsetup}     {2017/03/31 v1.3}
+  *{package}{xstring}     {2013/10/13 v1.7c}
+  *{package}{xpatch}      {2012/10/02 v0.3}
+  *{package}{etoolbox}    {2018/02/11 v2.5e}
+  *{package}{rotating}    {2016/08/11 v2.16d}
+  *{package}{ifthen}      {2014/09/29 v1.1c}
+  *{package}{listings}    {2015/06/04 v1.6}
+  *{package}{lstmisc}     {2015/06/04 v1.6}
+  *{file}   {listings.cfg}{2015/06/04 v1.6}
+  *{package}{lstlang1}    {2015/06/04 v1.6}
+  *{file}   {supp-pdf.mkii}{0000/00/00 v0.0}
+  *{package}{nameref}     {2016/05/21 v2.44}
+  *{package}{gettitlestring}{2016/05/16 v1.5}
+  *{file}   {tesis-template.out}{0000/00/00 v0.0}
+  *{file}   {tesis-template.out}{0000/00/00 v0.0}
+  *{file}   {figures/upa-logo.pdf}{0000/00/00 v0.0}
+  *{file}   {ursfs.fd}    {1998/03/24 v0.0}
+  *{file}   {uesint.fd}   {0000/00/00 v0.0}
+  *{file}   {umsa.fd}     {2013/01/14 v3.01}
+  *{file}   {umsb.fd}     {2013/01/14 v3.01}
+  *{file}   {figures/upa-logo.pdf}{0000/00/00 v0.0}
+  *{file}   {tesis-template.bbl}{0000/00/00 v0.0}
+}
